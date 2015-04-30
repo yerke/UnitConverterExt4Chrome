@@ -1,0 +1,14 @@
+Unit Converter Extension For Google Chrome
+
+Content:
+chrome/ contains version for Google Chrome
+unitconverter.crx is the packed extension for Chrome
+unitconverter.pem is the extension key for Chrome
+
+How to build:
+To pack extension for Chrome, open Chrome, go to chrome://extensions, enable Developer mode, select Pack extension, navigate to chrome/ for extension root directory, and navigate to private key unitconverter.pem. This will create chrome.crx, which you would need to rename into unitconverter.crx.
+
+How to install:
+In Chrome go to chrome://extensions, enable Developer mode, open directory containing unitconverter.crx in file manager, and drag and drop the file to Chrome. When Chrome asks you to confirm that you want to add Unit Converter, select Add. The new icon will appear on the extension bar next to address bar. Click on it and you are ready to convert the units.
+
+Yerke

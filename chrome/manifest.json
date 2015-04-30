@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Unit Converter",
+  "description": "This extension allows you to convert different units, such as length, temperature, etc.",
+  "version": "1.0",
+  "icons": { 
+    "16": "unitconverter-16.png",
+    "48": "unitconverter-48.png",
+    "128": "unitconverter-128.png" },
+
+  "browser_action": {
+    "default_icon": "unitconverter-48.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "*://*/*"
+  ]
+}

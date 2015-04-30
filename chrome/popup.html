@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <script src='jquery-1.11.2.min.js'></script>
+    <script src='popup.js'></script>
+    <!--
+    <style type="text/css">
+    </style>-->
+    <link rel="stylesheet" type="text/css" href="convert.css">
+  </head>
+  <body>
+  <!--[if lte IE 9]>
+	<div id="iefix">
+  <![endif]-->
+    <div name='converter' id='converter'>
+	<table cellpadding="0" cellspacing="0" id='conv_table' name='conv_table'>
+		<tr>
+        <td class="first">
+         <label class="title">Convert:</label> 
+        </td>
+		<td colspan='2' class="first">
+			<span class="select first"><span class="arrow"></span><span class="selectbg"><select id='category'></select></span></span>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<label class="title">From:</label>
+            <button class="switch" id="switch_btn"></button>
+		</td>
+		<td>
+			<span class="select"><span class="arrow"></span><span class="selectbg"><select id='from_units'></select></span></span>
+		</td>
+		<td>
+	    	<input type='text' name='from' id='from' value='10' class="userinput">
+		</td>
+    	</tr>
+    	<tr>
+		<td class="last">
+			<label class="title">To:</label>
+		</td>
+		<td class="last">
+			<span class="select"><span class="arrow"></span><span class="selectbg"><select id='to_units'></select></span></span>
+		</td>
+		<td class="last">
+    		<input type='text' name='to' id='to' value='' class="userinput">
+		</td>
+    	</tr>
+    	<tr>
+    	</tr>
+    </table>
+  </div>
+  <!--[if lte IE 9]>
+	</div>
+  <![endif]-->
+  </body>
+</html>
